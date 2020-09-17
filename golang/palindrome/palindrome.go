@@ -16,7 +16,6 @@ func isPalindrome(word string) bool {
 	for _, v := range word {
 		result = string(v) + result
 	}
-	strings.
 	return strings.EqualFold(compareRemoveSpace(result), compareRemoveSpace(word))
 }
 
